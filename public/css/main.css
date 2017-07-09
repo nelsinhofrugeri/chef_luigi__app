@@ -1,0 +1,77 @@
+* {
+    font-family: helvetica, sans-serif;
+}
+
+.login_box {
+    margin-top: 15em;
+}
+
+.login_text {
+    margin-top: 1.5em;
+    padding: 0 2em;
+    font-family: 'gourmetregular', helvetica, sans-serif;
+    font-size: 4em;
+    text-align: center;
+    color: #707070;
+}
+
+.btn_facebook {
+    width: 100%;
+    background-color: #3B5192;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin: 0 .2em 0 .8em;
+    padding: .5em 1.5em;
+    border-radius: .2em;
+}
+
+@font-face {
+  font-family: 'gourmetregular';
+  src: url('../fonts/gourmetregular.ttf');
+  font-weight: bold;
+}
+.fontgourmet {
+    font-family: 'gourmetregular', helvetica, sans-serif;
+    font-size: 12em;
+    text-align: center;
+    font-weight: bold;
+    color: #F0A037;
+}
+
+.icon_chef {
+    width: 16em;
+    height: 16em;
+    margin: -4em 18em 6em;
+    background-image: url(../icons/chef.svg);
+}
+
+.login_buttons {
+    margin-top: 7.2em;
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    list-style: none;
+    border: 1px solid gray;
+    color: #1087DD;
+}
+.login_buttons li {
+    display: inline-block;
+}
+.login_buttons_sigin {
+    border-right: 1px solid gray;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-right: 3.2em;
+    padding-left: 2.8em;
+    float: left;
+}
+.login_buttons_signup {
+    border-left: 1px solid gray;
+    padding: 1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    padding-left: 2.5em;
+    padding-right: 3em;
+    float: right;
+}
